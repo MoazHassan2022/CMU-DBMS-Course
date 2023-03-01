@@ -7,7 +7,7 @@ WITH secondary_titles as (
     where t.primary_title = 'House of the Dragon' AND t.type = 'tvSeries'
     GROUP BY t.primary_title, a.title
     ORDER BY a.title
-),
+), 
 titles_sequenced as (
     SELECT ROW_NUMBER() OVER (ORDER BY secondary_titles.name asc) as seqnum, secondary_titles.secondary_title as secondary_title
     FROM secondary_titles
