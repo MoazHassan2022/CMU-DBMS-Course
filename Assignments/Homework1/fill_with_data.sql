@@ -26,7 +26,7 @@ INSERT INTO people(person_id, name, born, died) VALUES ('nm0000009', 'Amr Mohame
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000010', 'Leonardo Di Caprio', 1971, 2040);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000011', 'Morgan Freeman', 1940, 2030);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000012', 'Tom Hanks', 1962, 2028);
-INSERT INTO people(person_id, name, born, died) VALUES ('nm0000013', 'Tamer Hosny', 1989, 2052);
+INSERT INTO people(person_id, name, born, died) VALUES ('nm0000013', 'Tafida Hosny', 1989, 2052);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000014', 'Ahmed Helmy', 1985, 2060);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000015', 'Fareed Shawky', 1900, 1990);
 
@@ -49,12 +49,12 @@ INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000004', 'nm0000004'
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000005', 'nm0000005', 'photographer');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000001', 'nm0000006', 'actor');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000002', 'nm0000007', 'actor');
-INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000003', 'nm0000008', 'director');
+INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000003', 'nm0000008', 'actor');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000004', 'nm0000009', 'actor');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000005', 'nm0000010', 'photographer');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000001', 'nm0000011', 'actor');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000002', 'nm0000012', 'actor');
-INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000003', 'nm0000013', 'director');
+INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000003', 'nm0000013', 'actress');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000004', 'nm0000014', 'actor');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000005', 'nm0000015', 'photographer');
 INSERT INTO crew(title_id, person_id, category) VALUES ('tt0000005', 'nm0000001', 'actor');
