@@ -5,6 +5,6 @@ MIN(r.rating) as min_rating,
 COUNT(t.premiered)
 FROM titles as t JOIN ratings as r 
 ON t.title_id = r.title_id
-WHERE t.premiered IS NOT NULL
+WHERE t.premiered IS NOT NULL 
 GROUP BY decade
 ORDER BY avg_rating DESC, decade ASC;
