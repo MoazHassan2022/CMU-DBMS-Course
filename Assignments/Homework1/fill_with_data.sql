@@ -32,7 +32,7 @@ INSERT INTO people(person_id, name, born, died) VALUES ('nm0000015', 'Fareed Sha
 
 INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000001', 'movie', 'Back to the Future', 1985, 95, 'Adventure,Sci-Fi,Comedy');
 INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000002', 'movie', 'Titanic', 1991, 130, 'Adventure');
-INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000003', 'series', 'Friends', 1995, 30, 'Comedy,Social');
+INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000003', 'series', 'Friends', 1991, 30, 'Comedy,Social');
 INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000004', 'movie', 'The Great Escape', 1965, 135, 'History');
 INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000005', 'series', 'Death Note', 2005, 100, 'Mystery,Comedy,Sci-Fi');
 
