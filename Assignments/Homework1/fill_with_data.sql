@@ -30,11 +30,11 @@ INSERT INTO people(person_id, name, born, died) VALUES ('nm0000013', 'Tamer Hosn
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000014', 'Ahmed Helmy', 1985, 2060);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000015', 'Fareed Shawky', 1900, 1990);
 
-INSERT INTO titles(title_id, type, primary_title, premiered, genres) VALUES ('tt0000001', 'movie', 'Back to the Future', 1985, 'Adventure,Comedy,Sci-Fi');
-INSERT INTO titles(title_id, type, primary_title, premiered, genres) VALUES ('tt0000002', 'movie', 'Titanic', 1991, 'Adventure');
-INSERT INTO titles(title_id, type, primary_title, premiered, genres) VALUES ('tt0000003', 'series', 'Friends', 1995, 'Comedy,Social');
-INSERT INTO titles(title_id, type, primary_title, premiered, genres) VALUES ('tt0000004', 'movie', 'The Great Escape', 1965, 'History');
-INSERT INTO titles(title_id, type, primary_title, premiered, genres) VALUES ('tt0000005', 'series', 'Death Note', 2005, 'Mystery,Comedy');
+INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000001', 'movie', 'Back to the Future', 1985, 95, 'Adventure,Sci-Fi,Comedy');
+INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000002', 'movie', 'Titanic', 1991, 130, 'Adventure');
+INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000003', 'series', 'Friends', 1995, 30, 'Comedy,Social');
+INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000004', 'movie', 'The Great Escape', 1965, 135, 'History');
+INSERT INTO titles(title_id, type, primary_title, premiered, runtime_minutes, genres) VALUES ('tt0000005', 'series', 'Death Note', 2005, 100, 'Mystery,Comedy,Sci-Fi');
 
 INSERT INTO akas(title_id, title, language) VALUES ('tt0000001', 'Back to the Future', 'es');
 INSERT INTO akas(title_id, title, language) VALUES ('tt0000002', 'Titanic', 'es');
