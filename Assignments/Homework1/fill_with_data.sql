@@ -18,9 +18,9 @@ INSERT INTO people(person_id, name, born, died) VALUES ('nm0000001', 'Ingrid Ber
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000002', 'Moaz Mohamed', 2000, 2050);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000003', 'Mohamed Nabil', 2001, 2090);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000004', 'Ahmed Aref', 2002, 2085);
-INSERT INTO people(person_id, name, born, died) VALUES ('nm0000005', 'Ahmed Mohamed', 1996, 2080);
+INSERT INTO people(person_id, name, born, died) VALUES ('nm0000005', 'Ahmed Mohamed', 1996, null);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000006', 'Omar Fareed', 2001, 2085);
-INSERT INTO people(person_id, name, born, died) VALUES ('nm0000007', 'Mamduh Attia', 2001, 2089);
+INSERT INTO people(person_id, name, born, died) VALUES ('nm0000007', 'Mamduh Attia', 2001, null);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000008', 'Khaled Mohamed', 1991, 2057);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000009', 'Amr Mohamed', 1988, 2070);
 INSERT INTO people(person_id, name, born, died) VALUES ('nm0000010', 'Leonardo Di Caprio', 1971, 2040);
